@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    double length, width;
+
+    // Input length and width of the rectangle
+    cout << "Enter length of the rectangle: ";
+    cin >> length;
+    cout << "Enter width of the rectangle: ";
+    cin >> width;
+
+    // Calculate area of the rectangle
+    double area = length * width;
+
+    // Output area of the rectangle
+    cout << "Area of the rectangle is: " << area << endl;
+
+    return 0;
+}
