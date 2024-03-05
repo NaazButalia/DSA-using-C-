@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Example of break statement
+    cout << "Example of break statement:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        if (i == 6) {
+            cout << "Breaking the loop at i = " << i << endl;
+            break; // Break out of the loop when i equals 6
+        }
+        cout << i << " ";
+    }
+    cout << endl << endl;
+
+    // Example of continue statement
+    cout << "Example of continue statement:" << endl;
+    for (int i = 1; i <= 5; ++i) {
+        if (i == 3) {
+            cout << "Skipping i = " << i << endl;
+            continue; // Skip the rest of the loop body when i equals 3
+        }
+        cout << i << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
